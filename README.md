@@ -1,4 +1,4 @@
-# Spectral Signals Compressor network
+# SRDiNet
 <img src="./sscnet.png" width="60%">
 
 ## Abstract
