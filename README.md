@@ -1,7 +1,7 @@
 # SRDiNet
 <img src="./sscnet.png" width="60%">
 
-## Abstract
+# Abstract
 In computer vision, stereoscopy allows the three-dimensional reconstruction of the scene using two 2D images taken from two slightly different points of view, to extract spatial information on the depth of the scene in the form of a map of disparities.
 In stereophotogrammetry, the disparity map is essential to extract the Digital Terrain Model (DTM) and thus obtain a 3D spatial mapping necessary for a better analysis of planetary surfaces.
 However, the entire reconstruction process performed with the stereo matching algorithm can be time-consuming and generate many artefacts. Coupled with the lack of adequate stereo coverage, it can pose a significant obstacle to 3D planetary mapping.
@@ -17,7 +17,7 @@ models list:
 * 'model_b' -> RLNet+DualSRNoGan
 * 'model_c' -> No RLNet (DualSRGAN)
 #example
-##config.py
+#config.py
 model_type='model_a'
 
 mode             = "validate"                 # Run mode. train/validate
