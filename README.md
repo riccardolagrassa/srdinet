@@ -1,6 +1,4 @@
 # SRDiNet
-<img src="./sscnet.png" width="60%">
-
 # Abstract
 In computer vision, stereoscopy allows the three-dimensional reconstruction of the scene using two 2D images taken from two slightly different points of view, to extract spatial information on the depth of the scene in the form of a map of disparities.
 In stereophotogrammetry, the disparity map is essential to extract the Digital Terrain Model (DTM) and thus obtain a 3D spatial mapping necessary for a better analysis of planetary surfaces.
