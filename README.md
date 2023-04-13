@@ -26,5 +26,27 @@ exp_name         = "DTM_exp_train10%_"+model_type             # Experiment name.
 
 working_dir = 'your path/' -> Change with your path
 
+## License
+
+The project is licensed under the [GLPv3 license]
+
+
+## BibTeX Citation
+
+If you use SRDiNet in a scientific publication, we would appreciate using the following citation:
+
+```
+
+@article{la2022adversarial,
+  title={An Adversarial Generative Network Designed for High-Resolution Monocular Depth Estimation     from 2D HiRISE Images of Mars},
+  author={La Grassa, Riccardo and Gallo, Ignazio and Re, Cristina and Cremonese, Gabriele and Landro, Nicola and Pernechele, Claudio and Simioni, Emanuele   and Gatti, Mattia},
+  journal={Remote Sensing},
+  volume={14},
+  number={18},
+  pages={4619},
+  year={2022},
+  publisher={MDPI}
+}
+
 
 
