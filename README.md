@@ -7,9 +7,9 @@ Recently, many deep learning architectures have been proposed for monocular dept
 In this paper, we combine these last two concepts into a single end-to-end model and introduce a new Generative Adversarial Network solution that estimates the DTM at 4x resolution from a single monocular image, called SRDiNet (Super-Resolution Depth Image Network).
 Furthermore, we introduce a sub-network able to apply a refinement using interpolated input images to better enhance the fine details of the final product and we demonstrated the effectiveness of its benefits through three different versions of the proposal: SRDiNet with GAN approach, SRDiNet without adversarial network and SRDiNet without the refinement learned network plus GAN approach.
 The results of Oxia Planum (the landing site of the European Space Agency’s Rosalind Franklin ExoMars rover 2023) are reported applying the best model along all Oxia Planum tiles and releasing a 3D product enhanced by 4x.
-The visualization tool is available at https://huggingface.co/spaces/ARTeLab/DTM_Estimation_SRandD.
 
-#Setting config.py
+
+# Setting config.py
 models list:
 * 'model_a' -> RLNet+DualSRGAN
 * 'model_b' -> RLNet+DualSRNoGan
@@ -25,3 +25,6 @@ true_super_resolution= True  -> set mode=validate and true super-resolution=True
 exp_name         = "DTM_exp_train10%_"+model_type             # Experiment name.
 
 working_dir = 'your path/' -> Change with your path
+
+
+
