@@ -28,7 +28,7 @@ working_dir = 'your path/' -> Change with your path
 
 ## License
 
-The project is licensed under the [GLPv3 license]
+The project is licensed under the GPL-3.0 license 
 
 
 ## BibTeX Citation
